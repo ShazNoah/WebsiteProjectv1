@@ -1,0 +1,229 @@
+/* *{@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&displau=swap');
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/WebsiteProjectv1/images/background1.jpg);
+    background-size: cover;
+    background-position: cover;
+    background-attachment: fixed;
+}
+
+
+.navigationtab {
+    width: 90%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.logo {
+    width: 400px;
+    cursor: pointer;
+}
+
+.navigationtab ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    
+}
+
+.navigationtab ul li a{
+    text-decoration: none;
+    color: #fff ;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold ;
+} 
+.navigationtab ul li::after{
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: #bf0000;
+    position: absolute;
+    right : 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navigationtab ul li:hover::after{
+    width: 100%;
+}
+
+.introtitle{
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    transform: translateY (-50%);
+    top: 30%;
+    /* font-stretch: expanded; */
+}
+
+.introtitle h1{
+    font-size:70px;
+    margin: top;
+}
+
+.intro{
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    transform: translateY (-50%);
+    top: 50%;
+}
+
+.intro #jailbreaking p{
+    font-size:26px;
+    margin: top;
+    margin: 20px auto;
+    font-weight: 100;
+}
+
+/* .introtitledownloads p{
+    font-size:70px;
+    margin: top;
+    margin: 20px auto;
+    transform: translateY (-50%);
+    color: white;
+    
+} */
+
+
+#paragraph {
+    font-size: 10px;
+    /* background-blend-mode:overlay; */
+    /* background-color: black;
+    background-image:url(/images/background2.png);
+    background-attachment: fixed; */
+}
+
+.notevil {
+   
+    color: white;
+    text-align: center;
+    position:absolute;
+    width: 100%;
+    transform: translateY (-50%);
+    top: 27%;
+}
+
+
+.introtitledownloads p{
+    font-size:70px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    transform: translateY (-50%);
+    top: 19%;
+}
+
+.introdownloads {
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    transform: translateY (-50%);
+    top: 15%;
+    
+}
+
+.introdownloads p{
+    font-size:26px;
+    margin: top;
+    margin: 20px auto;
+    font-weight: 100;
+}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #ff0000;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+buttonEmail {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #ff0000;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+buttonFB {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #ff0000;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+type="text/css"> 
+
+#jailbreaking {font-weight: bold;}
+
+
+
+
+/* SLIDING PAGE STUFF */
+
+/* .navigationtabslidingpage {
+    width: 90%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+} */
+/* 
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&displau=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: auto
+}
+
+.container .section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+} */
