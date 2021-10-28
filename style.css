@@ -1,5 +1,10 @@
-/* *{@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&displau=swap');
-} */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&displau=swap');
+
+body {
+    overflow: hidden;
+} 
+
+
 
 *{
     margin: 0;
@@ -16,20 +21,31 @@
     background-attachment: fixed;
 }
 
+#banner2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/WebsiteProjectv1/images/Aboutme.jpg);
+    background-size: cover;
+    background-position: cover;
+    background-attachment: fixed;
+}
+
 
 .navigationtab {
     width: 90%;
     margin: auto;
-    padding: 35px 0;
+    padding: 10px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 
 }
 
 
 .logo {
     width: 400px;
+    /* position: fixed; */
     cursor: pointer;
 }
 
@@ -70,7 +86,7 @@
     width: 100%;
     transform: translateY (-50%);
     top: 30%;
-    /* font-stretch: expanded; */
+   
 }
 
 .introtitle h1{
@@ -85,6 +101,7 @@
     width: 100%;
     transform: translateY (-50%);
     top: 50%;
+    font-weight: bold;
 }
 
 .intro #jailbreaking p{
@@ -94,22 +111,11 @@
     font-weight: 100;
 }
 
-/* .introtitledownloads p{
-    font-size:70px;
-    margin: top;
-    margin: 20px auto;
-    transform: translateY (-50%);
-    color: white;
-    
-} */
 
 
 #paragraph {
     font-size: 10px;
-    /* background-blend-mode:overlay; */
-    /* background-color: black;
-    background-image:url(/images/background2.png);
-    background-attachment: fixed; */
+
 }
 
 .notevil {
@@ -150,80 +156,79 @@
     font-weight: 100;
 }
 
-button {
+
+
+ button {
     width: 200px;
     padding: 15px 0;
     text-align: center;
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid #ff0000;
+    border: 3px solid #ff0000;
     background: transparent;
     color: #fff;
     cursor: pointer;
-}
-buttonEmail {
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid #ff0000;
-    background: transparent;
-    color: #fff;
-    cursor: pointer;
-}
-buttonFB {
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid #ff0000;
-    background: transparent;
-    color: #fff;
-    cursor: pointer;
+    position: relative;
+    overflow: hidden;
 }
 
-type="text/css"> 
+.buttonFB {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 3px solid #0066ff;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.buttonLD {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 3px solid #eeff00;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.buttonME {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 3px solid #008500;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.hackedworking{
+    width: 20%;
+    height: 20%;
+}
+
+
+
+
+
 
 #jailbreaking {font-weight: bold;}
 
 
-
-
-/* SLIDING PAGE STUFF */
-
-/* .navigationtabslidingpage {
-    width: 90%;
-    margin: auto;
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-} */
-/* 
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&displau=swap');
-
-*
-{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-}
-
-.container{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: auto
-}
-
-.container .section{
-    position: relative;
-    width: 100%;
-    height: 100%;
-} */
